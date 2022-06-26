@@ -2,6 +2,7 @@ from fpdf import FPDF
 pdf = FPDF()
 # imagelist is the list with all image filenames
 imagelist = ['k/Untitled-%i.jpg'%i for i in range(1,4)]
+# A4 size page in mm
 x=y=0
 w=210
 h=297
