@@ -22,4 +22,6 @@
 	$conn->query($sql);
 	//insearting into a session
 	$_SESSION[$gclid] = $random;
+	//print the information
+	echo "gclid: ".$gclid."; random: ".$random; //you can comment it to hide it from the user by this-> //
 ?>
